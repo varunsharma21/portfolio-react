@@ -1,0 +1,31 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100% - 200px;
+  margin-left: 100px;
+}
+
+.project-image {
+  width: 475px;
+  height: 285px;
+  border-radius: 20px;
+  /* margin-right: 150px; */
+}
+
+.projects-title {
+  padding-left: 185px;
+  padding-top: 10px;
+}
+
+.projects-second {
+  margin-left: 200px;
+}
+
+.project-image:hover {
+  opacity: 0.7;
+}
+
+.projects-image:hover {
+  opacity: 0.7;
+}

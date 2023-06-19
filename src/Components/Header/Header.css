@@ -1,0 +1,23 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn__resume {
+  height: 35px;
+  width: 70px;
+  margin-left: 950px;
+  margin-top: 17.5px;
+  margin-right: 100px;
+}
+
+.header-name {
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 0;
+  width: 200px;
+  padding-bottom: 0;
+}

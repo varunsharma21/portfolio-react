@@ -1,0 +1,39 @@
+.intro {
+  display: flex;
+  height: 555px;
+}
+
+.intro-left {
+  height: 500px;
+  width: 50%;
+  background-color: greenyellow;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.intro-right {
+  width: 50%;
+}
+
+.greeting {
+  margin-left: 100px;
+  margin-top: 150px;
+  width: 50px;
+}
+
+.name {
+  margin-left: 100px;
+  margin-top: 7px;
+  width: 150px;
+}
+
+.description {
+  margin-left: 100px;
+  align-items: flex-start;
+  margin-top: 7px;
+  width: 500px;
+}
+
+p {
+  margin: auto;
+}
