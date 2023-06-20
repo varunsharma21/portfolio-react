@@ -6,6 +6,9 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import amazonImage from "./assets/amazon-image.jpeg";
 import weatherAppImage from "./assets/weather-image.jpeg";
+import topTed from "./assets/top-ted.jpeg";
+import expenseTracker from "./assets/expense-tracker.jpeg";
+import MultipleSkills from "./Components/Skills/MultipleSkills";
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           marginLeft: "100px",
           marginBottom: "50px",
           marginRight: "100px",
+          color: "grey",
         }}
       >
         Projects
@@ -30,23 +34,24 @@ function App() {
         titleTwo="Weather App"
       />
       <Projects
-        firstProjectPath="https://amazon-clone-by-varun.vercel.app/"
-        firstImage={amazonImage}
-        secondProjectPath="https://varunsharma21.github.io/Weather-App/"
-        secondImage={weatherAppImage}
-        titleOne="Amazon Clone"
-        titleTwo="Weather App"
+        firstProjectPath="https://ted-talk-player.netlify.app/"
+        firstImage={topTed}
+        secondProjectPath="https://expense-tracker-by-varun.netlify.app/"
+        secondImage={expenseTracker}
+        titleOne="Top Ted"
+        titleTwo="Expense Tracker"
       />
       <h2
         style={{
           marginLeft: "100px",
           marginBottom: "50px",
           marginRight: "100px",
+          color: "gray",
         }}
       >
         Skills
       </h2>
-      <Skills />
+      <MultipleSkills />
       <Footer />
     </div>
   );

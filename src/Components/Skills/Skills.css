@@ -1,25 +1,18 @@
-.skills {
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
+.skill {
+  border-color: transparent;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+
+  border-radius: 5px;
+  background-color: rgb(251, 247, 247);
+  color: grey;
 }
 
-.skills-mobile {
-  margin-left: 545px;
-  border: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid black;
-  border-radius: 10%;
-}
-
-.skills-web {
-  margin-left: 155px;
-  border: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid black;
-  border-radius: 10%;
+.skill:hover {
+  background-color: purple;
+  color: white;
 }

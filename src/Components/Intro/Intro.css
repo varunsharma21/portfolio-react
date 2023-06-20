@@ -1,30 +1,31 @@
 .intro {
   display: flex;
-  height: 555px;
+  height: 625px;
 }
 
 .intro-left {
   height: 500px;
   width: 50%;
-  background-color: greenyellow;
+  background-color: white;
   margin-top: 0;
   padding-left: 0;
 }
 
 .intro-right {
   width: 50%;
+  background-color: white;
 }
 
 .greeting {
   margin-left: 100px;
-  margin-top: 150px;
-  width: 50px;
+  margin-top: 250px;
+  width: fit-content;
 }
 
 .name {
   margin-left: 100px;
   margin-top: 7px;
-  width: 150px;
+  width: fit-content;
 }
 
 .description {
@@ -32,6 +33,13 @@
   align-items: flex-start;
   margin-top: 7px;
   width: 500px;
+}
+
+.coder-image {
+  height: 450px;
+  width: 650px;
+  padding-left: 28px;
+  margin-top: 100px;
 }
 
 p {

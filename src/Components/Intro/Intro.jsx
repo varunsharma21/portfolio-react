@@ -1,22 +1,30 @@
 import React from "react";
 import "./Intro.css";
+import Lottie from "lottie-react";
+import coderImage from "../../assets/coder-image.json";
 
 function Intro() {
   return (
     <div className="intro">
       <div className="intro-left">
-        <p className="greeting">Hey,</p>
-        <p className="name">I am Varun Sharma</p>
+        <p className="greeting">Hey! I am</p>
+        <p className="name">Varun Sharma</p>
         <p className="description" align="justify">
-          A software engineer is a skilled professional who designs, develops,
-          and maintains computer software applications. They possess expertise
-          in programming languages, algorithms, and software development
-          methodologies. Software engineers analyze user needs, create technical
-          specifications, write code, conduct testing, and collaborate with
-          teams to deliver efficient and high-quality software solutions.
+          As a skilled software engineer, my expertise lies in developing
+          engaging front-end experiences for web using reactJS and mobile
+          applications using Flutter. With a passion for creating intuitive
+          interfaces and seamless user interactions, I am dedicated to
+          delivering high-quality solutions that enhance user experiences. Check
+          out my portfolio to explore my work!
         </p>
       </div>
-      <div className="intro-right"></div>
+      <div className="intro-right">
+        <Lottie
+          className="coder-image"
+          animationData={coderImage}
+          loop={true}
+        />
+      </div>
     </div>
   );
 }

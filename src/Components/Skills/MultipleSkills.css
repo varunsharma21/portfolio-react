@@ -1,0 +1,19 @@
+.multiple-skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.multiple-skills__left {
+  margin-left: 100px;
+  width: 50%;
+}
+
+.multiple-skills__web {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.skills-lottie {
+  width: 30%;
+}
