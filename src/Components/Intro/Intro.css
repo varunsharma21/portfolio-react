@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  height: 625px;
+  height: 100vh;
 }
 
 .intro-left {
@@ -20,9 +20,11 @@
   margin-left: 100px;
   margin-top: 250px;
   width: fit-content;
+  font-size: larger;
 }
 
 .name {
+  font-size: xx-large;
   margin-left: 100px;
   margin-top: 7px;
   width: fit-content;
@@ -33,6 +35,8 @@
   align-items: flex-start;
   margin-top: 7px;
   width: 500px;
+  color: grey;
+  font-weight: 500;
 }
 
 .coder-image {
@@ -44,4 +48,22 @@
 
 p {
   margin: auto;
+}
+
+@media (max-width: 1140px) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 
+  .intro-left {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 0;
+    padding-left: 0;
+  } */
 }

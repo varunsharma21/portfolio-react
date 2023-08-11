@@ -38,3 +38,36 @@
 a {
   text-decoration: none;
 }
+
+/* Write @media queries below the default css. */
+@media (max-width: 550px) {
+  .header {
+    height: 100px;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    z-index: 1;
+
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  }
+
+  .header-name {
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0;
+    width: 200px;
+    padding-bottom: 0;
+    display: none;
+  }
+
+  .btn__resume {
+    height: 35px;
+    width: 70px;
+    margin: auto;
+    border-radius: 25px;
+    border-color: transparent;
+  }
+}

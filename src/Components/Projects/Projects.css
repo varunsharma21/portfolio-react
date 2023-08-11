@@ -16,12 +16,24 @@
 .projects-title {
   padding-left: 185px;
   padding-top: 10px;
+  color: grey;
+  font-weight: 500;
 }
 
 .projects-second {
-  margin-left: 200px;
+  margin-left: 350px;
 }
 
 .project-image:hover {
   border-radius: 0;
 }
+
+/* @media (max-width: 1140px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100% - 200px;
+    margin-left: 100px;
+  }
+} */

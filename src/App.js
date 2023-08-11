@@ -6,7 +6,7 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import amazonImage from "./assets/amazon-image.jpeg";
 import weatherAppImage from "./assets/weather-image.jpeg";
-import topTed from "./assets/top-ted.jpeg";
+import foodOrderingAppImage from "./assets/food-ordering-app.jpeg";
 import expenseTracker from "./assets/expense-tracker.jpeg";
 import MultipleSkills from "./Components/Skills/MultipleSkills";
 
@@ -34,11 +34,11 @@ function App() {
         titleTwo="Weather App"
       />
       <Projects
-        firstProjectPath="https://ted-talk-player.netlify.app/"
-        firstImage={topTed}
+        firstProjectPath="https://food-ordering-app-by-varun.netlify.app/"
+        firstImage={foodOrderingAppImage}
         secondProjectPath="https://expense-tracker-by-varun.netlify.app/"
         secondImage={expenseTracker}
-        titleOne="Top Ted"
+        titleOne="Food Ordering App"
         titleTwo="Expense Tracker"
       />
       <h2
