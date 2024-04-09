@@ -1,0 +1,13 @@
+h2 {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+}

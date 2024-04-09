@@ -1,7 +1,7 @@
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
-import Intro from "./Components/Intro/Intro.jsx";
+import Intro from "./Components/Intro/Intro";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import amazonImage from "./assets/amazon-image.jpeg";
@@ -15,42 +15,24 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
-      <h2
-        style={{
-          marginLeft: "100px",
-          marginBottom: "50px",
-          marginRight: "100px",
-          color: "grey",
-        }}
-      >
-        Projects
-      </h2>
-      <Projects
+      <h2>Projects</h2>
+      {/* <Projects
         firstProjectPath="https://amazon-clone-by-varun.vercel.app/"
         firstImage={amazonImage}
         secondProjectPath="https://varunsharma21.github.io/Weather-App/"
         secondImage={weatherAppImage}
         titleOne="Amazon Clone"
         titleTwo="Weather App"
-      />
-      <Projects
+      /> */}
+      {/* <Projects
         firstProjectPath="https://food-ordering-app-by-varun.netlify.app/"
         firstImage={foodOrderingAppImage}
         secondProjectPath="https://expense-tracker-by-varun.netlify.app/"
         secondImage={expenseTracker}
         titleOne="Food Ordering App"
         titleTwo="Expense Tracker"
-      />
-      <h2
-        style={{
-          marginLeft: "100px",
-          marginBottom: "50px",
-          marginRight: "100px",
-          color: "gray",
-        }}
-      >
-        Skills
-      </h2>
+      /> */}
+      <h2>Skills</h2>
       <MultipleSkills />
       <Footer />
     </div>

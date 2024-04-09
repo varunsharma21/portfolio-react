@@ -1,0 +1,19 @@
+.logos {
+  height: 30px;
+  width: 30px;
+  border-radius: 30%;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.footer p {
+  color: grey;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .footer p {
+    margin-top: 20px;
+  }
+}
