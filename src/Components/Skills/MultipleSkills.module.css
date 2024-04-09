@@ -45,7 +45,7 @@ h3 {
   }
 
   .multiple-skills__left {
-    width: 100%;
+    width: 80%;
     margin-left: 0;
   }
 
@@ -72,7 +72,7 @@ h3 {
 
   .skills-lottie {
     width: 70%;
-    display: none;
+    /* display: none; */
   }
 
   h3 {
