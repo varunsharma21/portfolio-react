@@ -8,7 +8,7 @@ function Header() {
       <button className={styles["btn__resume"]}>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1mBJn48KSnLzkaRbGTyxPKwRwoqNQY-tu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1nPJ0o6z5ayD46PWWi09txeYPZwTktr4h/view?usp=sharing"
         >
           Resume
         </a>

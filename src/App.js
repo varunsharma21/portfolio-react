@@ -39,7 +39,7 @@ function App() {
         titleOne="Food Ordering App"
         titleTwo="Expense Tracker"
       /> */}
-      <h2>Skills</h2>
+      <h2 className="skills">Skills</h2>
       <MultipleSkills />
       <Footer />
     </div>

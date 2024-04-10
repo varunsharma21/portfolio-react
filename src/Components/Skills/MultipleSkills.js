@@ -6,15 +6,15 @@ import skillsLottie from "../../assets/skills-lottie.json";
 
 const frontEndSkillsOne = ["HTML5", "CSS3", "Javascript", "ReactJS"];
 
-const frontEndSkillsTwo = ["Bootstrap", "REST API"];
+const frontEndSkillsTwo = ["Redux", "Material UI", "REST API"];
 
-const mobileSkills = ["Flutter", "Dart", "Dio"];
+const mobileSkills = ["Node", "Express", "MongoDB"];
 
 function MultipleSkills() {
   return (
     <div className={styles["multiple-skills"]}>
       <div className={styles["multiple-skills__left"]}>
-        <h3>Web</h3>
+        <h3>Frontend</h3>
         <div className={styles["multiple-skills__web"]}>
           <div className={styles.skills}>
             {frontEndSkillsOne.map((skill) => (
@@ -27,7 +27,7 @@ function MultipleSkills() {
             ))}
           </div>
         </div>
-        <h3>Mobile</h3>
+        <h3>Backend</h3>
         <div className={styles["multiple-skills__mobile"]}>
           {mobileSkills.map((skill) => (
             <Skills skill={skill} />

@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./ProjectsList.module.css";
 import amazonPoster from "./../../assets/amazon-image.jpeg";
+import quizNinja from "./../../assets/quiz-ninja.jpeg";
+import showBuzz from "./../../assets/show-buzz.jpeg";
+import toDoApp from "./../../assets/to-do-app.jpeg";
 import Project from "./Project";
 
 const projects = [
@@ -10,19 +13,19 @@ const projects = [
     projectPath: "https://amazon-clone-by-varun.vercel.app/",
   },
   {
-    title: "Amazon Clone",
-    poster: amazonPoster,
-    projectPath: "https://amazon-clone-by-varun.vercel.app/",
+    title: "Show Buzz",
+    poster: showBuzz,
+    projectPath: "https://show-buzz-varun.vercel.app/",
   },
   {
-    title: "Amazon Clone",
-    poster: amazonPoster,
-    projectPath: "https://amazon-clone-by-varun.vercel.app/",
+    title: "Quiz Ninja",
+    poster: quizNinja,
+    projectPath: "https://quiz-ninja.vercel.app/",
   },
   {
-    title: "Amazon Clone",
-    poster: amazonPoster,
-    projectPath: "https://amazon-clone-by-varun.vercel.app/",
+    title: "To Do App",
+    poster: toDoApp,
+    projectPath: "https://github.com/varunsharma21/to-do-app",
   },
 ];
 

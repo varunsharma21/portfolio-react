@@ -7,15 +7,18 @@ function Intro() {
   return (
     <div className={styles.intro}>
       <div className={styles["intro-left"]}>
-        <p className={styles.greeting}>Hey! I am</p>
+        <p className={styles.greeting}>Hey, I am</p>
         <p className={styles.name}>Varun Sharma</p>
         <p className={styles.description}>
-          As a skilled software engineer, my expertise lies in developing
-          engaging front-end experiences for web using reactJS and mobile
-          applications using Flutter. With a passion for creating intuitive
-          interfaces and seamless user interactions, I am dedicated to
-          delivering high-quality solutions that enhance user experiences. Check
-          out my portfolio to explore my work!
+          As an adept full-stack engineer specializing in the MERN stack, my
+          expertise is centered around crafting captivating front-end
+          experiences for web applications using ReactJS and delivering robust
+          back-end solutions with Node.js, Express, and MongoDB. With a keen eye
+          for detail and a passion for creating intuitive interfaces, I am
+          committed to developing seamless user interactions that elevate the
+          overall user experience. Explore my portfolio to discover a showcase
+          of my work and see how I bring projects to life with precision and
+          innovation!
         </p>
       </div>
       <div className={styles["intro-right"]}>
