@@ -17,7 +17,7 @@ function Footer() {
             target="_blank"
             href="https://www.linkedin.com/in/varun-sharma-9728591a0/"
           >
-            <img src={linkedinLogo} className={styles.logos} />
+            <img src={linkedinLogo} className={styles.firstLogo} />
           </a>
           <a target="_blank" href="https://github.com/varunsharma21">
             <img src={githubLogo} className={styles.logos} />

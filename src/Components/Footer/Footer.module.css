@@ -7,6 +7,14 @@
   margin-bottom: 30px;
 }
 
+.firstLogo {
+  height: 30px;
+  width: 30px;
+  border-radius: 30%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
 .footer p {
   color: grey;
   font-weight: 500;
@@ -19,5 +27,11 @@
 
   .footer {
     margin-top: 70px;
+  }
+
+  .social-media-handles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

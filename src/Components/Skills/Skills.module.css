@@ -9,11 +9,10 @@
 
   border: 1px solid grey;
   border-radius: 5px;
-  background-color: rgb(251, 247, 247);
+  background-color: purple;
   color: grey;
 }
 
-.skill:hover {
-  background-color: purple;
+.skill p {
   color: white;
 }
